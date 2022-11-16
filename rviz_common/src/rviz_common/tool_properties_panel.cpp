@@ -28,12 +28,12 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "tool_properties_panel.hpp"
+#include "rviz_common/tool_properties_panel.hpp"
 
 #include <QVBoxLayout>
 
 #include "rviz_common/properties/property_tree_widget.hpp"
-#include "tool_manager.hpp"
+#include "rviz_common/tool_manager.hpp"
 #include "rviz_common/visualization_manager.hpp"
 
 namespace rviz_common

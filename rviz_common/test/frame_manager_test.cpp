@@ -35,7 +35,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 
-#include "../src/rviz_common/frame_manager.hpp"
+#include "rviz_common/frame_manager.hpp"
 #include "mock_frame_transformer.hpp"
 
 using namespace ::testing;  // NOLINT

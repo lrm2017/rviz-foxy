@@ -70,7 +70,7 @@ configure_file(src/rviz_common/env_config.cpp.in ${ENV_CONFIG_CPP} @ONLY)
 
 # These need to be added in the add_library() call
 set(rviz_common_headers_to_moc
-  src/rviz_common/add_display_dialog.hpp
+  include/rviz_common/add_display_dialog.hpp
   src/rviz_common/help_panel.hpp
   include/rviz_common/properties/enum_property.hpp
   include/rviz_common/properties/property_tree_widget.hpp
@@ -81,9 +81,9 @@ set(rviz_common_headers_to_moc
   include/rviz_common/visualizer_app.hpp
   include/rviz_common/display.hpp
   include/rviz_common/display_context.hpp
-  src/rviz_common/displays_panel.hpp
+  include/rviz_common/displays_panel.hpp
   src/rviz_common/failed_panel.hpp
-  src/rviz_common/frame_manager.hpp
+  include/rviz_common/frame_manager.hpp
   include/rviz_common/frame_manager_iface.hpp
   src/rviz_common/loading_dialog.hpp
   src/rviz_common/new_object_dialog.hpp
@@ -119,15 +119,15 @@ set(rviz_common_headers_to_moc
   src/rviz_common/screenshot_dialog.hpp
   include/rviz_common/interaction/selection_manager.hpp
   include/rviz_common/interaction/selection_manager_iface.hpp
-  src/rviz_common/splash_screen.hpp
+  include/rviz_common/splash_screen.hpp
   include/rviz_common/tool.hpp
-  src/rviz_common/tool_manager.hpp
-  src/rviz_common/tool_properties_panel.hpp
+  include/rviz_common/tool_manager.hpp
+  include/rviz_common/tool_properties_panel.hpp
   include/rviz_common/transformation/transformation_manager.hpp
-  src/rviz_common/transformation_panel.hpp
+  include/rviz_common/transformation_panel.hpp
   include/rviz_common/view_controller.hpp
   include/rviz_common/view_manager.hpp
-  src/rviz_common/views_panel.hpp
+  include/rviz_common/views_panel.hpp
   include/rviz_common/visualization_frame.hpp
   src/rviz_common/widget_geometry_change_detector.hpp
   include/rviz_common/ros_topic_display.hpp
@@ -335,7 +335,7 @@ if(BUILD_TESTING)
   qt5_wrap_cpp(rviz_common_test_moc_files test/mock_display.hpp)
   qt5_wrap_cpp(rviz_common_test_moc_files test/mock_property_change_receiver.hpp)
 
-  qt5_wrap_cpp(rviz_common_test_frame_manager_moc src/rviz_common/frame_manager.hpp)
+  qt5_wrap_cpp(rviz_common_test_frame_manager_moc include/rviz_common/frame_manager.hpp)
   ament_add_gmock(frame_manager_test
     test/frame_manager_test.cpp
     src/rviz_common/frame_manager.cpp

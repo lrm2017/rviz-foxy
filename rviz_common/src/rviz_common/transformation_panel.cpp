@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "transformation_panel.hpp"
+#include "rviz_common/transformation_panel.hpp"
 
 #include <memory>
 #include <string>

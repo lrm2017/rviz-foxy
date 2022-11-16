@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "./views_panel.hpp"
+#include "rviz_common/views_panel.hpp"
 
 #include <QComboBox>
 #include <QHBoxLayout>

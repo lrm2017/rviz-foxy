@@ -1,6 +1,6 @@
 # 说明
 
-这个rviz2 foxy分支是通过修改源码，将rviz的visualization_frame.hpp 头文件可用，用于librviz2的二次开发
+这个rviz2 foxy分支是通过修改源码，将rviz的接口暴露，用于librviz2的二次开发
 
 # 使用
 

@@ -34,13 +34,13 @@
 #include <string>
 
 // TODO(wjwwood): reenable the remaining panels
-#include "./displays_panel.hpp"
+#include "rviz_common/displays_panel.hpp"
 #include "./help_panel.hpp"
 #include "./selection_panel.hpp"
 // #include "./time_panel.hpp"
-#include "./tool_properties_panel.hpp"
-#include "./transformation_panel.hpp"
-#include "./views_panel.hpp"
+#include "rviz_common/tool_properties_panel.hpp"
+#include "rviz_common/transformation_panel.hpp"
+#include "rviz_common/views_panel.hpp"
 #include "rviz_common/visualization_manager.hpp"
 #include "rviz_common/ros_integration/ros_node_abstraction_iface.hpp"
 

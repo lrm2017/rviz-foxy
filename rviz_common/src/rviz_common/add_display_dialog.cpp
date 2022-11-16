@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "./add_display_dialog.hpp"
+#include "rviz_common/add_display_dialog.hpp"
 
 #include <algorithm>
 #include <map>

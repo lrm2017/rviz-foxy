@@ -27,7 +27,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "splash_screen.hpp"
+#include "rviz_common/splash_screen.hpp"
 
 #include <iostream>
 

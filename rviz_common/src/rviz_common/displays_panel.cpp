@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "./displays_panel.hpp"
+#include "rviz_common/displays_panel.hpp"
 
 #include <string>
 
@@ -43,7 +43,7 @@
 
 #include "./display_factory.hpp"
 #include "rviz_common/display.hpp"
-#include "./add_display_dialog.hpp"
+#include "rviz_common/add_display_dialog.hpp"
 #include "rviz_common/properties/property.hpp"
 #include "rviz_common/properties/property_tree_widget.hpp"
 #include "rviz_common/properties/property_tree_with_help.hpp"
